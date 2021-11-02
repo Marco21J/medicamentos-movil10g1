@@ -10,4 +10,9 @@ export class HomeService {
   public testMethod(): string {
     return 'Hello world from Ionic, I am a method from home service';
   }
+
+  public getMessage(): string {
+    return 'hola';
+  }
+
 }
