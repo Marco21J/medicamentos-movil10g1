@@ -1,5 +1,7 @@
 {
   "name": "medicamentos-10g1",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
