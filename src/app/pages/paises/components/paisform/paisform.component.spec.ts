@@ -42,7 +42,7 @@ describe('PaisformComponent', () => {
     expect(component.form.invalid).toBeTrue();
   });
 
-  it('El formulario debe ser inválido (true) - (Espacios en blanco)', () => {
+  it('El formulario debe ser inválido (true) - (Más de 1 Espacio en blanco)', () => {
     const nombre = component.form.get('nombre');
     const descripcion = component.form.get('descripcion');
     nombre.setValue('mmmmmmmm     mmmmm    mmm  ');
